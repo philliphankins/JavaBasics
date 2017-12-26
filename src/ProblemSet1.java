@@ -32,5 +32,23 @@ D. 25.5
 				bankBalance = bankBalance - 100;
 				System.out.println(bankBalance);
 				System.out.println("Please see code for programing used to achieve answer.");
-	}
+				System.out.println();
+				
+/* Question 4
+What value will be printed by this line of Java code? System.out.println(2.0 * (5 / 2));
+A. 4
+B. 4.0
+C. 5
+D. 5.0
+E. This line of code will give an error. 
+**/
+		System.out.println("Answer #4");
+		System.out.println("B. 4.0. The answer of the division of 5/2 will be trunciated.");
+		System.out.println();
+		
+				
+	
+	
+	}	
+	
 }
