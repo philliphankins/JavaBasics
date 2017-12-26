@@ -3,7 +3,7 @@ public class ProblemSet1 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.println("Does this work?");
+		System.out.println("Yes it does!");
 
 	}
 
