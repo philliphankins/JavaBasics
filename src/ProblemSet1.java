@@ -9,7 +9,7 @@ A. int x = 5;
 B. double temperature = 75.6;
 C. char grade = ’A’;
 D. String name = ’Adam’
-		 **/
+		 */
 		System.out.println("Answer #1. D. String Name = Adam");
 		System.out.println("Double qoutes are for text, single qoutes are for characters.");
 		System.out.println();
@@ -19,13 +19,13 @@ A. 19.0
 B. 19.5
 C. 22.5
 D. 25.5
-**/
+*/
 		System.out.println("Answer #2 B. 19.5");
 		System.out.println();
 		/*Question 3
 * Define an integer variable called bankBalance. Initialize it to a value of 500.
 * Then add 250 to it. Then subtract 100 from it. Finally, print the resulting value.
-**/
+*/
 		System.out.println("Answer #3");
 		int bankBalance = 500;
 				bankBalance = bankBalance + 250;
@@ -41,13 +41,26 @@ B. 4.0
 C. 5
 D. 5.0
 E. This line of code will give an error. 
-**/
+*/
 		System.out.println("Answer #4");
-		System.out.println("B. 4.0. The answer of the division of 5/2 will be trunciated.");
+		System.out.println("B. 4.0. The answer of the division of 5/2 will be truncated.");
+		System.out.println();
+		
+/*	Question 5
+Write Java code to define an integer variable called day, and a String variable called month.
+Give month and day appropriate values for your birthday
+*/
+		
+		int day = 1;
+		String month = "January";
+		System.out.println("Answer #5, see program for actual code");
+		System.out.println(month);
+		System.out.println(day);
 		System.out.println();
 		
 				
-	
+		
+					
 	
 	}	
 	
