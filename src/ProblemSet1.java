@@ -81,6 +81,21 @@ will be evaluated as the String:
 		System.out.println("Hello, my name is " + fullName +".");
 		int lettersinName = firstName.length() + lastName.length();
 		System.out.println("There are " + lettersinName + " letters in my name.");
+		System.out.println();		
+		
+/*Question 7
+Write Java code to define a double variable called fahrenheit and 
+set it to an initial value between 0 and 100. 
+Then, create a double variable called celsius, and calculate its value based on 
+the value of fahrenheit. (To convert from Fahrenheit to Celsius, 
+subtract 32, then multiply by 5, then divide by 9.) Finally, print the final value of celsius.
+*/
+		double farenheit = 68;
+		double celcius;
+		celcius = (farenheit - 32) * 5 / 9;
+		
+		System.out.println("Question #7. Check program for actual code used.");
+		System.out.println("The temperature in Celcius is " +celcius);
 		
 					
 	
