@@ -60,6 +60,38 @@ System.out.println("What, don’t you like pets?");
 	System.out.println("Question #2.");
 	System.out.println("The answer is 'I guess you like cats more.'");
 	System.out.println();
+	
+/*	Question 3
+You are programming the behavior of an enemy in a video game. The enemy code has access
+to two boolean variables, canSeePlayer and playerPoweredUp. canSeePlayer is true
+when the enemy can see the player and false otherwise, and playerPoweredUp is true when
+the player has found a special item that makes them impossible to defeat temporarily. Fill
+in the correct conditions so that “Attack!” is printed when the enemy can see the player
+and the player is not powered-up, “Run away!” is printed when the player is visible and is
+powered-up, and finally, “Wander.” is printed if the player is not visible.
+	
+*/
+	
+	System.out.println("Question #3.");
+	System.out.println();
+	System.out.println("if (canSeePlayer) {");
+	System.out.println("if (!playerPoweredUp) {");
+	System.out.println("System.out.println(\"Attack!\");");
+	System.out.println("} else {");
+	System.out.println("System.out.println(\"Run away!\");");
+	System.out.println("{");
+	System.out.println("} else {");
+	System.out.println("System.out.println(\"Wander.\");");
+	System.out.println("Note that the \ was added to allow println to properly work.");
+	System.out.println();
+	
+	
+	
+	
+		
+		
+		
+	
 
 	}
 
