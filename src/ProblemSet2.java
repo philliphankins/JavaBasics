@@ -82,17 +82,65 @@ powered-up, and finally, “Wander.” is printed if the player is not visible.
 	System.out.println("{");
 	System.out.println("} else {");
 	System.out.println("System.out.println(\"Wander.\");");
-	System.out.println("Note that the \ was added to allow println to properly work.");
+	System.out.println("Note that the backslash was added to allow println to properly work.");
 	System.out.println();
 	
+/* Question 4
+Assume you have access to two boolean variables, isSnowing, and isRaining, and one
+double variable, temperature. isSnowing is true when it’s snowing and false otherwise,
+isRaining is true when it’s raining and false otherwise, and temperature gives the outdoor
+temperature in degrees Fahrenheit. Write code that prints “Let’s stay home.” if it’s raining,
+snowing, or below 50 degrees Fahrenheit (10 degrees Celsius), and prints “Let’s go out!”
+otherwise.
+Starting code:
+//Assume these can have any value:
+boolean isSnowing = false;
+boolean isRaining = true;
+double temperature = 60.0;
+//TODO: print "Let’s stay home." if its raining, snowing or
+//below 50 degrees and print "Let’s go out!" otherwise.
+*/
 	
+	boolean isSnowing = false;
+	boolean isRaining = true;
+	double temperature = 60.0;
 	
-	
-		
-		
-		
-	
-
+	if (isSnowing || isRaining || temperature < 50) {
+		System.out.println("Let's stay home."); 
+	} else {
+		System.out.println("Let's go out!");
 	}
+System.out.println("Answer to Question 4.");
+System.out.println();
+System.out.println("boolean isSnowing = false;");
+System.out.println("boolean isRaining = true;");
+System.out.println("double temperature = 60.0;");
+System.out.println();
+System.out.println("if (isSnowing || isRaining || temperature < 50 {");
+System.out.println("System.out.println(\"Let's stay home.\");");
+System.out.println("} else {");
+System.out.println("System.out.println(\"Let's go out!\");");
+System.out.println(" } ");
+System.out.println("Note that the backslash was added to answer to allow printing of code, it is not in the actual code.");
 
+
+	
+
+	
+	
+	
+	}
+	
+	
 }
+	
+	
+	
+		
+		
+		
+	
+
+
+
+
