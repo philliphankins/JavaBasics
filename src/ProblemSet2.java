@@ -185,6 +185,26 @@ System.out.println("} else {");
 System.out.println("System.out.println(\"Sleep in!\");");
 System.out.println();
 
+/*Question 7
+Find the error in this Java code. (Hint: think about scope!)
+Imagine that the variables rewinding and playbackPosition could have different values
+depending on the situation.
+double playbackPosition = 120
+boolean rewinding = true;
+if (rewinding) {
+double rewindAmount = 0.1;
+}
+playbackPosition = playbackPosition - rewindAmount;
+*/
+System.out.println("Answer to question #7.");
+		System.out.println();
+		
+		System.out.println("The second 'curly bracket' is in the wrong place. This resets the variable 'rewindAmount' too early");
+		System.out.println("and it is unable to be referenced in the 'playbackPosition = playbackPosition - rewind amount.");
+		
+		
+		
+
 	
 }
 
