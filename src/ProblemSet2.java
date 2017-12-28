@@ -101,6 +101,8 @@ double temperature = 60.0;
 //below 50 degrees and print "Let’s go out!" otherwise.
 */
 	
+	System.out.println();
+	
 	boolean isSnowing = false;
 	boolean isRaining = true;
 	double temperature = 60.0;
@@ -123,16 +125,39 @@ System.out.println("System.out.println(\"Let's go out!\");");
 System.out.println(" } ");
 System.out.println("Note that the backslash was added to answer to allow printing of code, it is not in the actual code.");
 
+/*Question 5
+Assume you have access to a double variable called time. Write code that assigns a different
+value to the String variable timeOfDay based on the value of time in hours. If time is
+between 5 and 12, including 5 but not including 12, set timeOfDay to “morning”. If time is
+between 12 and 20, including 12 but not including 20, set timeOfDay to “daytime”. Finally,
+if the time variable does not satisfy either condition, set timeOfDay to “night”.
+Starting code:
+//Assume this could have any value between 0 and 24:
+int time = 18;
+String timeOfDay;
+//TODO: set timeOfDay to the correct String value.
+ */
+System.out.println();
+System.out.println("Answer to question #5.");
+System.out.println();
+System.out.println("int time = 18;");
+System.out.println("String timeOfDay;");
+System.out.println();
+System.out.println("if (time >= 5 && time < 12) {");
+System.out.println("timeOfDay = \"morning\";");
+System.out.println("} else if (time >= 12 && time < 20) {);");
+System.out.println("timeOfDay = \"daytime\";");
+System.out.println("} else {");
+System.out.println("timeOfDay = \"night\";");
+System.out.println();
 
-	
-
-	
+}
 	
 	
 	}
 	
 	
-}
+
 	
 	
 	
