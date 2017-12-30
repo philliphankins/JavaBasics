@@ -66,6 +66,20 @@ to 15% of the cost parameter.
 		System.out.println("return tip;");
 		System.out.println();
 		
+/* Question 6
+Write a Java function called nametagText(). The access modifier should be public, the
+return type should be String, and it should take a String parameter called name. In the
+body of the function, return the String “Hello, my name is ” with the name parameter added
+to the end. (Hint: use String concatenation.)
+*/
+		
+		System.out.println("Answer to Question #6.");
+		System.out.println();
+		System.out.println("public String nametagText(String name) }");
+		System.out.println("String nametagText='Hello, my name is '+ name;");
+		System.out.println("return nametagText;");
+		System.out.println();
+		
 
 	}
 
