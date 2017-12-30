@@ -79,6 +79,39 @@ to the end. (Hint: use String concatenation.)
 		System.out.println("String nametagText='Hello, my name is '+ name;");
 		System.out.println("return nametagText;");
 		System.out.println();
+				
+/*Question 7
+Define two functions. The first should be called fahrenheitToCelsius(). It should be
+a public function with return type double that takes a double argument that represents a
+temperature in Fahrenheit degrees. It should return the equivalent temperature in Celsius
+degrees. (To convert from Fahrenheit to Celsius, use the formula C = (F - 32) × 5/9.)
+Next, define a function called printTemperature(). It should be public, it should have a
+return type of void, and it should take a double parameter that represents a temperature in
+Fahrenheit degrees. This function should print “F: ” followed by the Fahrenheit parameter,
+then “C: ” followed by the equivalent value in Celsius degrees. Use the first function you
+defined to calculate the appropriate Celsius value inside the second function.
+*/
+		
+		System.out.println("Answer to Question #7.");
+		System.out.println();
+		/**
+		* Converts from Fahrenheit to Celsius degrees.
+		* @param fahrenheit Temperature in degrees Fahrenheit.
+		* @return Equivalent temperature in degrees Celsius.
+		*/
+		System.out.println("public double fahrenheitToCelsius(double fahrenheit) {");
+		System.out.println("return (farenheit - 32) * 5 / 9;");
+		System.out.println("}");
+		/**
+		* Prints a temperature in both Fahrenheit and Celsius degrees.
+		* @param fahrenheit Temperature in degrees Fahrenheit.
+		*/
+		System.out.println("public void printTemperature(double fahrenheit) {");
+		System.out.println("System.out.println(\"F: \" + fahrenheit);");
+		System.out.println("System.out.println(\"C: \" + fahrenheitToCelsius(fahrenheit));");
+		System.out.print("}");
+		System.out.println();
+		
 		
 
 	}
