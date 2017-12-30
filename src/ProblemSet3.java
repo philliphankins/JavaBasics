@@ -45,12 +45,27 @@ should return the parameter unchanged.
 		
 		System.out.println("Answer to Question #4");
 		System.out.println();
-		System.out.println("public double absoluteValue(double x }");
+		System.out.println("public double absoluteValue(double x) }");
 		System.out.println("if (x < 0) {");
 		System.out.println("return -x;");	
 		System.out.println("} else {");
 		System.out.println("return x");
 		System.out.println();
+		
+/*Question 5
+Write a Java function named calculateTip(). The access modifier should be public,
+it should have a return type of double, and it should take as input a double parameter
+representing the cost of a meal at a restaurant. And finally, it should return a double equal
+to 15% of the cost parameter.
+*/	
+		
+		System.out.println("Answer to Question #5");
+		System.out.println();
+		System.out.println("public double caclulateTip(double cost) }");
+		System.out.println("double tip = cost * 0.15;");
+		System.out.println("return tip;");
+		System.out.println();
+		
 
 	}
 
