@@ -35,6 +35,22 @@ D. public double getTemperature()
 		System.out.println("Answer to Question #3.");
 		System.out.println("A. The function signature has no return type.");
 		System.out.println();
+		
+/*Question 4
+Write a Java function called absoluteValue(). The access modifier should be public, it
+should have a return type of double, and it should take one double parameter as input. If
+the double parameter is less than 0, it should return that number negated. Otherwise, it
+should return the parameter unchanged.
+*/
+		
+		System.out.println("Answer to Question #4");
+		System.out.println();
+		System.out.println("public double absoluteValue(double x }");
+		System.out.println("if (x < 0) {");
+		System.out.println("return -x;");	
+		System.out.println("} else {");
+		System.out.println("return x");
+		System.out.println();
 
 	}
 
