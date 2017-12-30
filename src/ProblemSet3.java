@@ -112,6 +112,59 @@ defined to calculate the appropriate Celsius value inside the second function.
 		System.out.print("}");
 		System.out.println();
 		
+/*Question 8
+Define a function called monopolyRoll(). This function provides a random result based on
+the dice-rolling rules for the board game Monopoly. In Monopoly, players roll two six-sided
+dice to determine their move. If they roll the same value on both dice, this is called “rolling
+doubles,” and it means they go again. In our simplified version, the dice-roll function should
+behave like this:
+1. Generate two random integers in the 1 to 6 range.
+2. If the numbers are not the same, return the sum.
+3. If the numbers are the same, generate two more random integers in the 1 to 6 range,
+and return the sum of all 4 numbers.
+Hint: to make your code neater, you can define a second function that generates a random
+integer in the 1 to 6 range (or in the 1 to x range based on a parameter) so that you do not
+need to keep repeating that code.
+*/
+		
+		/**
+		* Returns a random integer simulating a dice roll.
+		* @param sides Number of sides on the virtual die being rolled.
+		* @return random number in the range of 1 to sides.
+		*/
+		
+		
+		System.out.println("Answer to Question #8");
+		System.out.println(); 
+		System.out.println("public int diceRoll(int sides) {");
+		//This expression generates a random double in the interval
+		//[0, sides). That is, a double greater than or equal to
+		//0 and less than sides.
+		System.out.println("double randomNumber = Math.random() * sides;");
+		//Our random number is now in the interval [1, sides + 1)
+		System.out.println("randomNumber = randomNumber + 1;");
+		//Casting the random number to an integer will round it down to an
+		//integer in the 1 to sides range.
+		System.out.println("return (int) randomNumber;");
+		System.out.println("}");
+		System.out.println();
+		System.out.println("public int monopolyRoll() }");
+		System.out.println("int roll1 = diceRoll(6);");
+		System.out.println("int roll2 = diceRoll(6);");
+		System.out.println("total = roll1 + roll2;");
+		System.out.println("if (roll1 == roll2) {");
+		System.out.println("int roll3 = diceRoll(6);");
+		System.out.println("int roll4 = diceRoll(6);");
+		System.out.println("total = total + roll3 + roll4);");
+		System.out.println("}");
+		System.out.println("return total;");
+		System.out.println("}");
+		
+		
+
+		
+		
+		
 		
 
 	}
