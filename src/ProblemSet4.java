@@ -101,6 +101,49 @@ return 0;
 		System.out.println("}");
 		System.out.println();
 		
+/*Question 5
+Complete the Java function below to print out all the Strings in the String array parameter
+in reverse order. (The String at the highest index should be printed first, then the String at
+the next highest index, and so on. The String at index 0 should be printed last.)
+For example, if a String array called weekdays had value
+{"Monday", "Tuesday", "Wednesday", "Thursday", "Friday"}
+then this function call:
+printInVerverse(weekdays);
+would print:
+Friday
+Thursday
+Wednesday
+Tuesday
+Monday
+Starting code:
+public void printInReverse(String[] stringArray) {
+}
+*/
+		System.out.println("Answer to Question #5.");
+		System.out.println();
+		System.out.println("public void printInReverse(String[] stringArray) {");
+		System.out.println("for (int i = 0; i < stringArray.length; i++) {");
+		//When i has its smallest possible value, 0, the expression
+		//below will be the length of the string array minus one,
+		//which is the highest index. When i has its largest possible
+		//value, stringArray.length - 1, this expression will be
+		//0, which is the the lowest index.
+		System.out.println("int indexToPrint = stringArray.length - 1 - i;");
+		System.out.println("System.out.println(stringArray[indexToPrint]);");
+		System.out.println("}");
+		System.out.println("}");
+		System.out.println();
+		System.out.println("Or, for a cleaner version.");
+		System.out.println();
+		System.out.println("public void printInReverse(String[] stringArray) {");
+		System.out.println("for (int i = stringArray.length - 1; i >= 0; i--) {");
+		System.out.println("System.out.println(stringArray[i]);");
+		System.out.println("}");
+		System.out.println("}");
+		System.out.println();
+		
+		
+		
 		
 		
 		
