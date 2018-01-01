@@ -41,6 +41,39 @@ public int factorial(int n) {
 		System.out.println("}");
 		System.out.println();
 		
+/*Question 3
+Complete the code in this function to find and return the lowest index in the String array
+stringArray that the String target occurs. If the String target does not occur in
+stringArray, -1 should be returned.
+Starting code:
+public int indexOfFirstOccurrence(String[] stringArray, String target)
+{
+return -1;
+}
+As an example of how this function should work, this code should print 1, because the word
+“Java” appears at index 1.
+String[] sentence = {"Learning", "Java", "is", "fun."};
+int indexOfWordJava = indexOfFirstOccurrence(sentence, "Java");
+System.out.println(indexOfWordJava);
+Hint: you cannot compare two Strings using the == operator! This will be false unless
+the two Strings are actually the same String object, not just two Strings with the same
+letters. To check whether two Strings have the same letters, use the equals() method:
+if (myString1.equals(myString2)).
+*/
+		
+		System.out.println("Answer to Question #3");
+		System.out.println();
+		System.out.println("public int indexOfFirstOccurrence(String[] stringArray, String target)");
+		System.out.println("{");
+		System.out.println("for (int i = 0; i < stringArray.length; i++) {");
+		System.out.println("if (stringArray[i].equals(target)) {");
+		System.out.println("return i;");
+		System.out.println("}");
+		System.out.println("}");
+		System.out.println("return -1");
+		System.out.println("}");
+		System.out.println();
+		
 		
 		
 		
