@@ -22,7 +22,7 @@ public int keepRolling() {
     }
     return count;
 
-
+}
 
 }
 
