@@ -142,6 +142,43 @@ public void printInReverse(String[] stringArray) {
 		System.out.println("}");
 		System.out.println();
 		
+/*Question 6
+Complete the function below, which finds the range covered by an integer array. Inside
+the function, find the smallest value in the parameter array, and find the largest value, and
+return the largest value minus the smallest value. If the array has length 0, return -1.
+For example, if the variable myIntArray had the value
+{1, 0, 2, 3, -1, 2}
+then the function call
+findRange(myIntArray)
+would return 4. The largest value in the array is 3, the smallest value is -1, and 3-(-1) = 4.
+Starting code:
+public int findRange(int[] intArray) {
+return -1;
+}
+*/
+		
+		System.out.println("Answer to Question #6.");
+		System.out.println();
+		System.out.println("public int findRange(int[] intArray) {");
+		System.out.println("if (intArray.length == 0) {");
+		System.out.println("return -1;");
+		System.out.println("}");
+		System.out.println("int smallest = intArray[0];");
+		System.out.println("int largest = intArray[0];");
+		System.out.println("for (int i = 1; i < intArray.length; i++) {");
+		System.out.println("if (intArray[i] < smallest) {");
+		System.out.println("smallest = intArray[i];");
+		System.out.println("}");
+		System.out.println("if (intArray[i] > largest) {");
+		System.out.println("largest = intArray[i];");
+		System.out.println("}");
+		System.out.println("}");
+		System.out.println("return largest - smallest;");
+		System.out.println("}");
+		System.out.println();
+		
+		
+		
 		
 		
 		
