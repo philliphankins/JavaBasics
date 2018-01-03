@@ -177,6 +177,34 @@ return -1;
 		System.out.println("}");
 		System.out.println();
 		
+		System.out.println("Question 7.");
+		System.out.println("What will be printed by this block of Java code?");
+		System.out.println();
+		System.out.println("int rows = 3;");
+		System.out.println("for (int i = 1; i <= rows; i++) {");
+		System.out.println("String thisRow = \"\";");
+		System.out.println("(for (int j = 0; j < i; j++) {");
+		System.out.println("x");
+		System.out.println("thisRow = thisRow + \"#\";");
+		System.out.println("}");
+		System.out.println("System.out.println(thisRow);");
+		System.out.println("}");
+		System.out.println();
+		System.out.println("The answer is:");
+		System.out.println();
+
+
+		
+		int rows = 3;
+		for (int i = 1; i <= rows; i++) {
+		String thisRow = "";
+		for (int j = 0; j < i; j++) {
+		thisRow = thisRow + "#";
+		}
+		System.out.println(thisRow);
+		}
+		System.out.println();
+		
 		
 		
 		
